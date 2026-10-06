@@ -11,3 +11,8 @@ Single-player Pong written in ARM32 assembly for the DE1-SoC board. Every pixel 
 - **Structured game state.** Ball and paddle state live in packed structs accessed by field offsets, and every subroutine follows ARM calling conventions.
 
 ## How to play
+
+1. Open CPUlator for the DE1-SoC: https://cpulator.01xz.net/?sys=arm-de1soc
+2. Paste the contents of `pong.s` into the editor.
+3. Click **Compile and Load**, then **Continue**.
+4. The ball bounces vertically, and the paddle slides along the bottom on its own. Press push button **KEY0** in the Devices panel to reverse the paddle's direction. Miss the ball and the game ends with "Game Over!"
