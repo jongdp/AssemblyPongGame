@@ -16,3 +16,8 @@ Single-player Pong written in ARM32 assembly for the DE1-SoC board. Every pixel 
 2. Paste the contents of `pong.s` into the editor.
 3. Click **Compile and Load**, then **Continue**.
 4. The ball bounces vertically, and the paddle slides along the bottom on its own. Press push button **KEY0** in the Devices panel to reverse the paddle's direction. Miss the ball and the game ends with "Game Over!"
+
+
+## Credits
+ 
+Written for Northwestern's COMP_ENG 205. The course provided the assignment framework: the routines below the `DO NOT MODIFY` line (`init`, `BlankScreen`, `DrawPixel`, `DrawStar`) and the pixel-map field definitions. `DrawStr` and `DrawNum` are my own work from an earlier assignment in the same course.
